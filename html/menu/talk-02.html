@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="../../resources/css/common.css">
+  <script type="text/javascript" src="../../resources/js/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="../../resources/js/jquery-ui.1.12.1.js"></script>
+  <script type="text/javascript" src="../../resources/js/common.js"></script>
+ </head>
+ <body>
+  <div class="wrapper">
+    <div class="gnb-wrap gnb-info">
+      <div class="gnb-title">
+        <div class="close-gnb"></div>
+      </div>
+      <div class="link-area clear-fix"> <!-- gnb 영역 --> <!-- 로그인전에는 before-log  class 추가-->
+        <ul class="dep01"><!-- 1 dep -->
+          <li>
+            <span>MAGAZINE</span>
+            <div class="dep02">
+              <a href="#" class="on">NEWS</a>
+              <a href="#">재미있는 문구 이야기</a>
+            </div>
+          </li>
+          <li>
+            <span>제품 평가단</span>
+            <div class="dep02">
+              <a href="#">제품 평가</a>
+              <a href="#">제품 평가단이란?</a>
+              <a href="#">제품 평가단 신청하기</a>
+            </div>
+          </li>
+          <li>
+            <span>문구 TALK</span>
+            <div class="dep02">
+              <a href="#">자유게시판</a>
+            </div>
+          </li>
+          <li>
+            <span>문구 팩토리</span>
+            <div class="dep02">
+              <a href="#">문구 팩토리란</a>
+              <a href="#">참여게시판</a>
+            </div>
+          </li>
+          <li>
+            <span>모리스 리그</span>
+            <div class="dep02">
+              <a href="#">모리스 리그란?</a>
+              <a href="#">참가 게시판</a>
+            </div>
+          </li>
+          <li>
+            <span>끄적임</span>
+            <div class="dep02">
+              <a href="#">끄적임이란?</a>
+              <a href="#">참여 게시판</a>
+            </div>
+          </li>
+          <li>
+            <span>Q&A</span>
+            <div class="dep02">
+              <a href="#">자주묻는질문</a>
+              <a href="#">문의 게시판</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  	
+    <div class="title-wrap">
+      <div class="hamberger"></div>
+      <h1 class="title"></h1>
+      <div class="myinfo">
+        <div>
+          <a href="#">로그인</a>
+        </div>
+        <div>
+          <a href="#">회원가입</a>
+        </div>
+        <!-- 로그인후 
+        <div>
+          <a href="#">로그아웃</a>
+        </div>
+        <div>
+          <a href="#">내 정보</a>
+        </div>
+        -->
+        <div>
+          <a href="#" class="icon_search"></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="container mg01 detail">
+      <div class="lnb">
+        <div class="lnb-tit">문구 TAKL</div>
+        <ul class="lnb-conts">
+          <li class="on"><a href="#">자유게시판</a></li>
+        </ul>
+      </div>
+      
+      <div class="editor-type">
+        <p class="tit mgt30 mgb20">글쓰기</p>
+        <table class="form-type">
+          <colgroup>
+            <col width="60px"></col>
+            <col width="*"></col>
+          </colgroup>
+          <tbody>
+            <tr>
+              <th>말머리</th>
+              <td>
+                <div class="drop-d">
+                  <span class="selected">전체</span>
+                  <div class="option">
+                    <ul>
+                      <li>옵션1</li>
+                      <li>옵션1</li>
+                      <li>옵션1</li>
+                    </ul>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th>제목</th>
+              <td>
+                <div class="input-item">
+                  <input type="text" >
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th>내용</th>
+              <td >
+                <textarea>
+                </textarea>
+              </td>
+            </tr>
+            <tr>
+              <th>첨부파일</th>
+              <td>
+                <div class="file">
+                  <input type="text" value = "asdf" readonly />
+                  <input type="file" id="file"/><label for="file"></label>
+                </div>
+                <div class="file">
+                  <input type="text" value = "asdf" readonly />
+                  <input type="file" id="file"/><label for="file"></label>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th>비밀글 <input type="checkbox" id="txt"/><label for="txt"></label></th>
+              <td>
+                <div class="input-item pdn with-txt" style="margin-bottom: 5px;">
+                  <span>비밀번호</span>
+                  <input type="password">
+                </div>
+                <div class="input-item pdn with-txt">
+                  <span>비밀번호 확인</span>
+                  <input type="password">
+                </div>
+              </td>
+            </tr>
+            
+          </tbody>
+        </table>
+      </div>
+      <div class="dual-btns mgt30">
+        <button class="btn_type btn-popup" layer-name="pop01">글쓰기</button>
+      </div>
+    </div>
+
+    <div class="layer-popup" layer-name="pop01">
+      <div class="dimed"></div>
+      <div class="popup">
+        <div class="mgb30">
+          <p class="main">글을 게시합니다.</p>
+          <p class="sub"><span class="red">비밀글</span>의 경우, 게시 후에도 수정, 삭제를 할수 있도록<br><span class="red">비밀번호</span>를 기억해 주세요.</p>
+        </div>
+        <div class="dual-btns">
+          <button class="btn_type popClose">예</button>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="footer">
+      <div class="ft_top">
+        <div class="logo"></div>
+        <div>문구다는 <span class="brand"></span> 에서 만든 커뮤니티 사이트입니다.<br>Copyrightⓒ Morris All rights reserved.</div>
+      </div>
+      <div class="ft_mid">
+        <div class="customer-center">1800 - 9972</div>
+        <div class="tb">
+          <div>상담가능시간</div>
+          <div>평일 오전 9시 ~ 오후 6시</div>
+        </div>
+        <div class="tb">
+          <div>TEL</div>
+          <div>032-772-0605</div>
+        </div>
+        <div class="tb">
+          <div>FAX</div>
+          <div>032-777-0634</div>
+        </div>
+        <div class="tb">
+          <div>E-Mail</div>
+          <div>Morris_sales@morris.co.kr</div>
+        </div>
+      </div>
+      <div class="ft_bottom">
+        <p>(주)모리스(Morris Co.,Ltd)</p>
+        <p>대표 : 문윤호</p>
+        <div class="tb">
+          <div>주소 : 인천광역시 미추홀구 염전로 114 모리스 빌딩</div>
+          <div><button>이용약관</button></div>
+        </div>
+        <div class="tb">
+          <div>사업자등록번호 : 117-81-20467 </div>
+          <div><button>개인정보 처리방침</button></div>
+        </div>
+      </div>
+    </div> <!-- footer -->
+
+  </div> <!-- wrapper -->  
+ </body>
+</html>
