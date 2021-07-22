@@ -549,7 +549,6 @@
 		font-size: 22px;
 		width: 80%;
 		max-width: 356px;
-		left: 10%;
 		background: url(../img/btn_redir.png) no-repeat 90% center /20px;
 		background-color: #7fd4b7;
 	}
@@ -561,6 +560,9 @@
 
 /* mobile */
 @media (max-width:500px) {
+	.class-info .redir {
+		left:10%
+	}
 	.class-tit4 { font-size:22px; word-break:keep-all;}
 	.myinfo-list .item { margin:0 0 25px; }
 	.myclass-area .cont-inner.type-box{ padding-bottom:20px; margin:0; }

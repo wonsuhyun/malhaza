@@ -130,11 +130,11 @@
 							</div>
 							<dt style="border:1px solid #d9d9d9; margin-top:13px; padding:20px ">
 								<p style="font-size: 16px; margin-bottom: 10px;">상담받을 시간을 선택헤주세요.</p>
-								<div>
-									<input class="checkbox-type" type="checkbox" id="time01"><label for="time01">평일 오전 9:00 -오후12:00 </label>
+								<div style="margin-bottom: 5px;">
+									<input class="radio-type" type="radio" id="time01" name="timeZone"><label for="time01">평일 오전 9:00 -오후12:00 </label>
 								</div>
 								<div>
-									<input class="checkbox-type" type="checkbox" id="time02"><label for="time02">평일 오후13:00—오후18:00 </label>
+									<input class="radio-type" type="radio" id="time02" name="timeZone"><label for="time02">평일 오후13:00—오후18:00 </label>
 								</div>
 							</dt>
 							<dt style="text-align:center; padding-top:20px">
@@ -166,9 +166,10 @@
 							<dt style="text-align: center;">
 								<br>
 								<span style="font-size: 24px; font-weight: bold;">감사합니다.</span><br><br>
-								말하자 선생님이 3시간 내에 <br>
-								회원님께 전화를 드리도록 하겠습니다.<br>
-								<br><br>
+								<p style="margin-bottom: 20px;">
+									말하자 선생님이 3시간 내에 <br>
+									회원님께 전화를 드리도록 하겠습니다.<br>
+								</p>
 								전화로 상담이 어려우시다면<br>
 								<span style="color:#e16e4a">카카오플러스 친구 추가 후 채팅 상담이 가능합니다.</span> <br>
 							</dt>
@@ -197,15 +198,15 @@
 						<button type="button" class="btn-close" onclick="window.malhaza.modal.close('modalK');"><span class="blind">닫기</span></button>
 					</div>
 					<div class="ui-modal-cont">
-						<p style="text-align: right;">구독기간 :당일부터 12개월</p>
+						<p style="text-align: right; margin-bottom:5px;">구독기간 :당일부터 12개월</p>
 						<dl class="cost-data">
 							<div>
 								<span>상품금액</span>
 								<span>1,234,000</span>
 							</div>
-							<div>
-								<span>상품금액</span>
-								<span>1,234,000</span>
+							<div style="background: #f8f8f8;">
+								<span>결제금액</span>
+								<span style="font-size: 18px; color: #e16e4a;">1,234,000</span>
 							</div>
 						</dl>
 

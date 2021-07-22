@@ -1078,7 +1078,10 @@ input:checked + .lb_check { background:#79dee2; border-color:transparent; }
 	font-size: 36px;
 	font-weight: 900;
 	color: #7a5eb8;
-	padding: 30px 0 20px 0;
+	padding-bottom: 20px;
+}
+.personal .area:first-child{
+	padding-top: 10px;
 }
 .personal .slick-arrow {
 	position: absolute;
@@ -1169,13 +1172,13 @@ input:checked + .lb_check { background:#79dee2; border-color:transparent; }
 .personal .gray-box .btn-more{
 	bottom: 45%;
 }
-.checkbox-type + label {
+.checkbox-type + label, .radio-type + label {
 	padding-left: 20px;
 	position: relative;
 	font-size: 14px;
 	font-weight: 400;
 }
-.checkbox-type + label::after {
+.checkbox-type + label::after, .radio-type + label::after {
 	content:"";
 	position: absolute;
 	width: 15px;
@@ -1184,6 +1187,9 @@ input:checked + .lb_check { background:#79dee2; border-color:transparent; }
 	border-radius: 3px;
 	left: 0;
 	top: 5px;
+}
+.checkbox-type:checked + label::after, .radio-type:checked + label::after{
+	background-color: #00CCCF ;
 }
 .ui-modal-cont .block{
 	position: relative;
