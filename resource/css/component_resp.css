@@ -222,7 +222,14 @@
 
 	.regi-area.new .class-list2.new .item {
 		flex: 0 1 auto;
-		margin: 20px 20px
+		margin: 20px 20px;
+		
+	}
+	.myclass-area .type-box .class-list2{
+		justify-content: flex-start;
+	}
+	.myclass-area .type-box .class-list2 .item{
+		margin:20px 20px;
 	}
 }
 

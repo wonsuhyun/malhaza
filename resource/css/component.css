@@ -786,8 +786,8 @@ input:checked + .lb_check { background:#79dee2; border-color:transparent; }
 .myclass-area .cont-inner { padding-top:20px; padding-bottom:20px; }
 .myclass-area .cont-inner.type-box {padding: 35px 40px;}
 .myclass-area .cont-inner.type-box.list { padding-left:0; padding-right:0; }
-.myclass-area .type-box .class-list2 { width:auto; max-width:1063px; justify-content:space-around;}
-.myclass-area .type-box .class-list2 .item { margin:10px 2px; }
+.myclass-area .type-box .class-list2 { width:auto; max-width:1063px; justify-content:center;}
+.myclass-area .type-box .class-list2 .item { margin:10px 8px; }
 .class-tit4 { font-weight:300; font-size:30px; text-align:center; }
 .class-tit4 strong { font-weight:800; }
 .myinfo-list { display:flex; justify-content:space-between; margin-top:30px; }
@@ -1243,6 +1243,19 @@ input:checked + .lb_check { background:#79dee2; border-color:transparent; }
 .personal-main-banner .slider-visual .slide{
 	text-align: center;
 }
+.regi-area.new .class-info-list li.device:before{
+	background: url('../img/sp_rg_ico.png') center 28px /68px auto no-repeat #7fd4b7;
+}
+.regi-area.new .class-info-list li.inf:before{
+	background: url('../img/sp_rg_ico.png') center -64px /68px auto no-repeat #7fd4b7;
+}
+.regi-area.new .class-info-list li.new:before{
+	background: url('../img/sp_rg_ico.png') center -162px /68px auto no-repeat #7fd4b7;
+}
+.regi-area.new .class-info-list li.book:before{
+	background: url('../img/sp_rg_ico.png') center -277px /68px auto no-repeat #7fd4b7;
+}
+
 @media (min-width:1920px) {
 	.slider-visual .slide { background-size:contain; background-repeat:no-repeat; }
 }
