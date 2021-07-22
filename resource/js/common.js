@@ -158,7 +158,7 @@
 				win[namespace].mainSlider.slide = $('.slider-visual .slider-inner').slick({
 					infinite: true,
 					speed: 400,
-					autoplay: true,
+					autoplay: false,
 					autoplaySpeed: 5000,
 					arrows: false,
 					pauseOnHover: false,

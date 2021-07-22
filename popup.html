@@ -62,6 +62,15 @@
 					<button type="button" class="btn-base type-line" onclick="
 						window.malhaza.modal.open('modalH')
 					"><span>중국어 월회원 신청 팝업 호출</span></button>
+					<button type="button" class="btn-base type-line" onclick="
+						window.malhaza.modal.open('modalI')
+					"><span>상담하기</span></button>
+					<button type="button" class="btn-base type-line" onclick="
+						window.malhaza.modal.open('modalJ')
+					"><span>상담완료팝업</span></button>
+					<button type="button" class="btn-base type-line" onclick="
+						window.malhaza.modal.open('modalK')
+					"><span>결제창</span></button>
 				</div>
 			</div>
 
@@ -99,6 +108,116 @@
 				</div>
 			</div>
 			<!-- // End : modalA -->
+
+			<!-- Start : modalI -->
+			<div id="modalI" class="ui-modal">
+				<div class="ui-modal-wrap ">
+					<div class="ui-modal-head">
+						<h2>상담신청</h2>
+						<button type="button" class="btn-close" onclick="window.malhaza.modal.close('modalI');"><span class="blind">닫기</span></button>
+					</div>
+					<div class="ui-modal-cont">
+						<dl class="cost-data">
+							<div class="form-item">
+								<dd>
+									<input type="text" id="" class="inp left" placeholder="이름을 입력하세요.">
+								</dd>
+							</div>
+							<div class="form-item">
+								<dd>
+									<input type="tel" id="" class="inp left" placeholder="연락처를 입력하세요.">
+								</dd>
+							</div>
+							<dt style="border:1px solid #d9d9d9; margin-top:13px; padding:20px ">
+								<p style="font-size: 16px; margin-bottom: 10px;">상담받을 시간을 선택헤주세요.</p>
+								<div>
+									<input class="checkbox-type" type="checkbox" id="time01"><label for="time01">평일 오전 9:00 -오후12:00 </label>
+								</div>
+								<div>
+									<input class="checkbox-type" type="checkbox" id="time02"><label for="time02">평일 오후13:00—오후18:00 </label>
+								</div>
+							</dt>
+							<dt style="text-align:center; padding-top:20px">
+								<input class="checkbox-type" type="checkbox" id="agree"/><label for="agree" style="font-size: 16px;"><span style="color:#e16e4a">개인정보 보호정책</span>에 동의합니다</label>
+							</dt>
+							
+						</dl>
+
+						<div class="btn-area">
+							<button type="button" class="btn-base type2" onclick="window.malhaza.modal.close('modalJ');">
+								<span>상담신청하기</span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- // End : modalI -->
+
+			<div id="modalJ" class="ui-modal">
+				<div class="ui-modal-wrap">
+					<div class="ui-modal-head">
+						<button type="button" class="btn-close" onclick="window.malhaza.modal.close('modalJ');"><span class="blind">닫기</span></button>
+					</div>
+					<div class="ui-modal-cont">
+						<dl class="cost-data">
+							<dt>
+								<img src="./resource/img/img_popup.png" width="100%">
+							</dt>
+							<dt style="text-align: center;">
+								<br>
+								<span style="font-size: 24px; font-weight: bold;">감사합니다.</span><br><br>
+								말하자 선생님이 3시간 내에 <br>
+								회원님께 전화를 드리도록 하겠습니다.<br>
+								<br><br>
+								전화로 상담이 어려우시다면<br>
+								<span style="color:#e16e4a">카카오플러스 친구 추가 후 채팅 상담이 가능합니다.</span> <br>
+							</dt>
+							<dt style="text-align: center;padding: 8px 0 15px;">
+								<a href="#"><img src="./resource/img/btn_talk.png"></a>
+							</dt>
+							<dt style="display:flex; justify-content: center;">
+								<div class="block">상담<br>전화</div>
+								<div style="font-size: 30px;">02)6333-1063</div>
+							</dt>
+						</dl>
+
+						<div class="btn-area">
+							<button type="button" class="btn-base type2" onclick="window.malhaza.modal.close('modalJ');">
+								<span>상담신청하기</span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="modalK" class="ui-modal">
+				<div class="ui-modal-wrap">
+					<div class="ui-modal-head">
+						<h2>중국어 연회원</h2>
+						<button type="button" class="btn-close" onclick="window.malhaza.modal.close('modalK');"><span class="blind">닫기</span></button>
+					</div>
+					<div class="ui-modal-cont">
+						<p style="text-align: right;">구독기간 :당일부터 12개월</p>
+						<dl class="cost-data">
+							<div>
+								<span>상품금액</span>
+								<span>1,234,000</span>
+							</div>
+							<div>
+								<span>상품금액</span>
+								<span>1,234,000</span>
+							</div>
+						</dl>
+
+						<div class="btn-area">
+							<button type="button" class="btn-base type2" onclick="window.malhaza.modal.close('modalJ');">
+								<span>결제하기</span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
 
 			<!-- Start : modalB -->
 			<div id="modalB" class="ui-modal">

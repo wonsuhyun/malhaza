@@ -219,9 +219,26 @@
 	.landing-go .btn-base { font-size:20px; }
 
 	.landing-visual { margin-top:70px; }
+
+	.regi-area.new .class-list2.new .item {
+		flex: 0 1 auto;
+		margin: 20px 20px
+	}
 }
 
 @media (max-width:765px) {
+	.personal .ui-tab.type3.cl {
+		padding: 40px 25px;
+	}
+	.personal .gray-box{
+		padding: 40px 25px;
+		display: block;
+	}
+	.gray-box .item{
+		width: 100%;
+		margin-bottom:10px
+	}
+
 	.tbl-base th { font-size:14px; }
 	.tbl-base td { font-size:14px; }
 
@@ -483,7 +500,7 @@
 	================== */
 	.landing-visual .landing-intro { font-size:30px; }
 	.landing-banner { font-size:20px; padding-top:30px; padding-bottom:30px; }
-	.landing-banner .tag. { height:30px; line-height:32px; }
+	.landing-banner .tag { height:30px; line-height:32px; }
 
 	.landing-skill .tit { padding-left:25px; padding-right:25px; font-size:18px; }
 	.landing-skill .desc { padding-left:25px; padding-right:25px; font-size:18px; }
@@ -519,6 +536,16 @@
 	.landing-benefit .benefits dd { padding:0; }
 
 	.slider-video .video { padding:0; }
+
+
+	.class-info .redir {
+		font-size: 22px;
+		width: 80%;
+		max-width: 356px;
+		left: 10%;
+		background: url(../img/btn_redir.png) no-repeat 90% center /20px;
+		background-color: #7fd4b7;
+	}
 }
 /* only mo */
 @media (min-width:501px) {
